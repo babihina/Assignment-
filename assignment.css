@@ -1,0 +1,31 @@
+body{
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    color: brown;
+}
+table{
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    background-color: antiquewhite;
+    margin: auto;
+    padding: 20px;
+}
+th,td{
+    padding: 15px;
+    font-size: medium;
+    border: 2px;
+}
+tr:hover{
+    background-color: aquamarine;
+
+}
+a{
+    color: blueviolet;
+}
+a:hover{
+    text-decoration: dotted;
+}
