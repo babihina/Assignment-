@@ -11,14 +11,13 @@
     margin: 50px auto;
     padding: 20px;
     background-color: #df8b8b;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.image img {
+.image {
     border-radius: 10px;
     object-fit: cover;
 }
@@ -51,18 +50,10 @@ textarea {
     background-color: #fff;
     color: #333;
 }
-
-input:focus,
-textarea:focus {
-    border-color: #007BFF;
-    outline: none;
-}
-
 button {
     background-color: #007BFF;
     color: white;
     padding: 10px 15px;
-    border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
