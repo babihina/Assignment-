@@ -1,34 +1,69 @@
- <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment1</title>
-    <link rel="stylesheet" href="assignment.css">
+    <title>Document</title>
 </head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family:'Times New Roman', Times, serif ;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+        h1{
+    text-align: center;
+    color: brown;
+    margin-bottom: 20px;
+    }
+
+    table{
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    background-color: antiquewhite;
+    margin: auto;
+    padding: 20px;
+    max-width: 600px;
+    }
+
+    th,td{
+    padding: 15px;
+    font-size: medium;
+    border: 2px;
+}
+</style>
 <body>
-    <h1>Project</h1>
+    <div>
+    <h1>Pricing Table </h1>
     <table>
-            <tr>
-                <th>PROJECT NAMES</th>
-                <th>LINKS</th>
-            </tr>
-            <tr>
-                <td>CSS FLEX</td>
-                <td><a href="../C:\Users\Hp\Desktop\html\html\flex.html">www.cssflex.com</a></td>
-                </tr>
-                <tr>
-                <td>CSS GRID</td>
-                <td><a href="../C:\Users\Hp\Desktop\html\html\grid.html">www.cssgrid.com</a></td>
-                </tr>
-                <tr>
-                <td>FLEX NAVBAR</td>
-                <td><a href="../C:\Users\Hp\Desktop\html\html\navbar.html">www.navbar.com</a></td>
-                </tr>
-                <tr>
-                <td>GRID NAVBAR</td>
-                <td><a href="../C:\Users\Hp\Desktop\html\html\gridnav.html">www.gridnavbar.com</a></td>
-            </tr>
-    </table>
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>Rs:100/-</td>
+        </tr>
+        <tr>
+            <td>Orange</td>
+            <td>Rs:120/-</td>
+        </tr>
+        <tr>
+            <td>Grape</td>
+            <td>Rs:200/-</td>
+        </tr>
+</table>
+    </div>
+
 </body>
 </html>
